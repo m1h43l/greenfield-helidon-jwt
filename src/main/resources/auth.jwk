@@ -1,0 +1,10 @@
+{
+    "kty": "oct",
+    "kid": "extranet",
+    "alg": "HS256",
+    "key_ops": [
+        "sign",
+        "verify"
+    ],
+    "k": "hello_this_is_my_secret_for_jwt_authentication"
+}
